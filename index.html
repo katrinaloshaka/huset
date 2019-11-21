@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Wordpress JSON Recap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="home.html">
+              <li>home</li>
+            </a>
+            <a href="index.html">
+              <li>events</li>
+            </a>
+            <a href="engage.html">
+              <li>engage</li>
+            </a>
+            <a href="#">
+              <li>news</li>
+            </a>
+            <a href="#"> <li>discover</li> </a
+            ><a href="about.html">
+              <li>about</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <a href="home.html"><img src="Pics/huset.png" alt="huset" class="huset_logo"/></a>
+    </header>
+
+    <section id="posts"></section>
+
+    <template class="postTemplate">
+      <article>
+        <center><h1 class="title">TITLE</h1></center>
+
+        <div class="event_image"><img /></div>
+
+        <p class="timetable">TIMETABLE</p>
+
+        <p class="date">DATE</p>
+
+        <p class="price">Price: <span></span> kr.</p>
+
+        <p class="place">Place: <span></span></p>
+
+        <center>
+          <button class="read_more" id="readMoreBtn">
+            Read More
+          </button>
+        </center>
+      </article>
+    </template>
+
+    <script src="index.js"></script>
+  </body>
+</html>
